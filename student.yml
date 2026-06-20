@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: student
+
+#added
+  profiles:
+    active: qa
+
+  datasource:
+    url: jdbc:h2:mem:studentdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+
+  h2:
+    console:
+      enabled: true
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 8080
