@@ -1,21 +1,7 @@
-spring:
-  application:
-    name: course
+build:
+  version: "default-snapshot"
 
-  datasource:
-    url: jdbc:h2:mem:coursedb
-    driver-class-name: org.h2.Driver
-    username: sa
-    password:
-
-  h2:
-    console:
-      enabled: true
-
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true
-
-server:
-  port: 8081
+contact:
+  support:
+    email: "default-dev@course.com"
+    phone: "0000000000"
