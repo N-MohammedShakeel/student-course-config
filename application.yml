@@ -2,7 +2,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: health, info, refresh, busrefresh
+        include: health, info, refresh, busrefresh, shutdown
     health:
       probes:
         enabled: true
